@@ -265,5 +265,12 @@ body {
   font-size: 1.3rem;
   color: var(--modalColor3);
 }
+.customModal .domainSeen {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.customModal .msg{
+  font-size: 1.5rem;
+}
 /* numberStep
   textStep */
