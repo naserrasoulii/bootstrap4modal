@@ -1,0 +1,258 @@
+@font-face {
+  font-family: "peyda";
+  src: url("./../fonts/PeydaWebFaNum-Regular.woff2"), url("./../fonts/PeydaWebFaNum-Regular.woff");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "peyda";
+  src: url("./../fonts/PeydaWebFaNum-Bold.woff2"), url("./../fonts/PeydaWebFaNum-Bold.woff");
+  font-weight: bold;
+}
+body {
+  font-family: "peyda";
+}
+:root {
+  --modalColor1: #7e2eca;
+  --modalColor2: #853bcc;
+  --modalColor3: #6c757d;
+  --modalColor4: #f2f3f9;
+  --modalColor5: #2ed290;
+}
+.customModal {
+  direction: rtl;
+  text-align: right;
+}
+.customModal .modal-body::-webkit-scrollbar {
+  width: 3px;
+}
+.customModal .modal-body::-webkit-scrollbar-thumb {
+  background: #a1a1a1;
+}
+.customModal .modal-body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.customModal .modal-body::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.customModal .modal-header .close {
+  margin: -1rem -1rem auto;
+}
+.customModal .h_iframe-aparat_embed_frame {
+  position: relative;
+}
+
+.customModal .h_iframe-aparat_embed_frame .ratio {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.customModal .h_iframe-aparat_embed_frame iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.customModal .progressCustomItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.customModal .progressCustom {
+  position: relative;
+  flex-wrap: wrap;
+}
+.customModal .progressCustom::after {
+  position: absolute;
+  content: "";
+  top: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 3rem);
+  height: 4px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-top: 1px solid var(--modalColor3);
+  border-bottom: 1px solid var(--modalColor3);
+  opacity: 0.5;
+  z-index: 0;
+  padding: 0 1rem;
+}
+
+.customModal .progressCustomItem.active .numberStep {
+  background-color: var(--modalColor5);
+}
+.customModal .progressCustomItem .numberStep {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--modalColor1);
+  border-radius: 50%;
+  color: #fff;
+  z-index: 1;
+}
+.customModal .progressCustomItem .textStep {
+  font-weight: bold;
+}
+.customModal .desciption {
+  font-weight: bold !important;
+}
+.customModal .textHiglight {
+  color: var(--modalColor1);
+}
+.customModal .btnCustomPrimary {
+  background-color: var(--modalColor1);
+  color: #fff;
+  transition: all 0.3s;
+}
+.customModal .btnCustomOutlinePrimary {
+  border: 1px solid var(--modalColor1);
+  color: var(--modalColor1);
+  background-color: #fff;
+  transition: all 0.3s;
+}
+.customModal .btnCustomOutlinePrimary:hover {
+  border: 1px solid var(--modalColor1);
+  color: #fff;
+  background-color: var(--modalColor1);
+  transition: all 0.3s;
+}
+.customModal .btnCustomPrimary:hover {
+  background-color: var(--modalColor2);
+}
+.customModal .fwbold {
+  font-weight: bold;
+}
+.customModal .selectThemplateRightSide .nav {
+  background-color: var(--modalColor1);
+  border-radius: 10px;
+  color: #fff;
+}
+.customModal .selectThemplateRightSide .nav .titleNavList {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+.customModal .selectThemplateRightSide .nav .nav-link {
+  color: #fff;
+  border-radius: 0;
+  text-align: right;
+}
+.customModal .selectThemplateRightSide .nav .nav-link.active {
+  background-color: var(--modalColor2);
+  filter: brightness(105%);
+}
+.customModal .actionThemeBtns {
+  gap: 0 10px;
+}
+
+.customModal .domainSelect .title,
+.customModal .domainstatus .title {
+  font-size: 1.3rem;
+}
+.customModal .domainSelect .domainName .inputCustom {
+  min-width: 220px;
+}
+.customModal .domainSelect .domainName .inputCustom:focus {
+  border: 1px solid var(--modalColor1);
+  outline: none;
+  box-shadow: none;
+}
+.customModal .domainSelect .domainName .inputCustom::placeholder {
+  font-size: 0.8rem;
+  font-weight: bold !important;
+  text-align: left !important;
+  direction: ltr !important;
+  /* 
+  color: #000 !important; */
+}
+.customModal .btnContainer {
+  gap: 0 1rem;
+}
+.customModal .linkCustom {
+  color: var(--modalColor2);
+  font-weight: bold;
+}
+.customModal .domainBold {
+  color: var(--modalColor2);
+  font-weight: bold;
+  font-size: 2rem;
+}
+.customModal .gapCustom {
+  gap: 0 0.5rem;
+}
+.customModal .price .item {
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.customModal .price .item .titleBox {
+  text-align: center;
+  color: #fff;
+  background-color: var(--modalColor1);
+}
+.customModal .price .item .titleBox .title {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.customModal .price .item .titleBox .subTitle {
+  font-size: 0.7rem;
+}
+.customModal .price .item .infoBox .priceSection {
+  font-size: 1.2rem;
+  position: relative;
+  font-weight: bold;
+  color: var(--modalColor1);
+}
+.customModal .price .item .infoBox .priceSection .deletePrice {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  white-space: nowrap;
+  font-weight: bold;
+  transform: translateX(-50%);
+  color: #000;
+  font-size: 0.8rem;
+  text-align: center;
+}
+.customModal .price .item .infoBox .priceSection .badgeCustom {
+  background-color: #ebebeb;
+  font-size: 12px;
+}
+
+.customModal .price .item .infoBox .feature li {
+  position: relative;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.customModal .price .item .infoBox .feature li span {
+  font-size: 0.9rem;
+}
+.customModal .price .item .infoBox .feature li::after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 0;
+  top: 0;
+  right: 0;
+  background-color: var(--modalColor2);
+  transition: all 0.3s;
+}
+.customModal .price .item .infoBox .feature li:hover {
+  background-color: #ebebeb;
+}
+.customModal .price .item .infoBox .feature li:hover::after {
+  height: 100%;
+}
+.customModal .titlePrice {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: var(--modalColor3);
+}
+/* numberStep
+  textStep */
