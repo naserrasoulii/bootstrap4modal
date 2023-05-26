@@ -86,6 +86,9 @@ body {
   padding: 0 1rem;
 }
 
+.customModal .progressCustomItem.done .numberStep {
+  background-color: var(--modalColor3);
+}
 .customModal .progressCustomItem.active .numberStep {
   background-color: var(--modalColor5);
 }
@@ -159,8 +162,10 @@ body {
 .customModal .domainstatus .title {
   font-size: 1.3rem;
 }
-.customModal .domainSelect .domainName .inputCustom {
+.customModal .domainName .inputCustom {
   min-width: 220px;
+  max-width: 400px !important;
+  margin: 0 auto;
 }
 .customModal .domainSelect .domainName .inputCustom:focus {
   border: 1px solid var(--modalColor1);
