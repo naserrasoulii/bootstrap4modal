@@ -1,11 +1,13 @@
 @font-face {
   font-family: "peyda";
-  src: url("./../fonts/PeydaWebFaNum-Regular.woff2"), url("./../fonts/PeydaWebFaNum-Regular.woff");
+  src: url("./../fonts/PeydaWebFaNum-Regular.woff2"),
+    url("./../fonts/PeydaWebFaNum-Regular.woff");
   font-weight: normal;
 }
 @font-face {
   font-family: "peyda";
-  src: url("./../fonts/PeydaWebFaNum-Bold.woff2"), url("./../fonts/PeydaWebFaNum-Bold.woff");
+  src: url("./../fonts/PeydaWebFaNum-Bold.woff2"),
+    url("./../fonts/PeydaWebFaNum-Bold.woff");
   font-weight: bold;
 }
 body {
@@ -21,6 +23,9 @@ body {
 .customModal {
   direction: rtl;
   text-align: right;
+}
+.customModal a {
+  text-decoration: none;
 }
 .customModal .modal-body::-webkit-scrollbar {
   width: 3px;
