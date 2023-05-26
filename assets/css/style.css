@@ -172,11 +172,12 @@ body {
   outline: none;
   box-shadow: none;
 }
-.customModal .domainSelect .domainName .inputCustom::placeholder {
+.customModal .domainSelect .domainName .inputCustom::placeholder,
+.customModal .domainName .inputCustom::placeholder {
   font-size: 0.8rem;
   font-weight: bold !important;
-  text-align: left !important;
-  direction: ltr !important;
+  text-align: center !important;
+  /* direction: ltr !important; */
   /* 
   color: #000 !important; */
 }
