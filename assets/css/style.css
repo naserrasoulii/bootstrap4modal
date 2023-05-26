@@ -234,6 +234,7 @@ body {
 .customModal .price .item .infoBox .priceSection .badgeCustom {
   background-color: #ebebeb;
   font-size: 12px;
+  color: #000;
 }
 
 .customModal .price .item .infoBox .feature li {
