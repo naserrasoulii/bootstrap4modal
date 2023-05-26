@@ -116,6 +116,7 @@ body {
   background-color: var(--modalColor1);
   color: #fff;
   transition: all 0.3s;
+  min-width: 160px;
 }
 .customModal .btnCustomOutlinePrimary {
   border: 1px solid var(--modalColor1);
@@ -273,7 +274,5 @@ body {
   font-size: 1.5rem;
 }
 .customModal .btnCustomPrimary.btnW {
-  min-width: 160px;
+  min-width: 200px;
 }
-/* numberStep
-  textStep */
