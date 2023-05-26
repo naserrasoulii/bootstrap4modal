@@ -269,8 +269,11 @@ body {
   font-size: 2rem;
   font-weight: bold;
 }
-.customModal .msg{
+.customModal .msg {
   font-size: 1.5rem;
+}
+.customModal .btnCustomPrimary.btnW {
+  min-width: 160px;
 }
 /* numberStep
   textStep */
