@@ -196,14 +196,16 @@ body {
 }
 
 .customModal .selectThemplateRightSide .nav .nav-link {
-  color: #fff;
-  border-radius: 0;
-  text-align: right;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 0 !important;
+  text-align: right !important;
+  background: none !important;
 }
 
 .customModal .selectThemplateRightSide .nav .nav-link.active {
-  background-color: var(--modalColor2);
-  filter: brightness(105%);
+  background-color: var(--modalColor2) !important;
+  filter: brightness(105%) !important;
 }
 
 .customModal .actionThemeBtns {
