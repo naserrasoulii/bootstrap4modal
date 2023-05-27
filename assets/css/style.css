@@ -138,6 +138,27 @@ body {
   min-width: 160px;
 }
 
+.customModal .btnCustomPrimary2 {
+  background-color: #014f86;
+  color: #fff;
+  transition: all 0.3s;
+  min-width: 160px;
+}
+
+.customModal .btnCustomPrimary3 {
+  background-color: #0096c7;
+  color: #fff;
+  transition: all 0.3s;
+  min-width: 160px;
+}
+
+.customModal .btnCustomPrimary4 {
+  background-color: #3a0ca3;
+  color: #fff;
+  transition: all 0.3s;
+  min-width: 160px;
+}
+
 .customModal .btnCustomOutlinePrimary {
   border: 1px solid var(--modalColor1);
   color: var(--modalColor1);
@@ -327,5 +348,17 @@ body {
 }
 
 .customModal .btnCustomPrimary.btnW {
+  min-width: 200px;
+}
+
+.customModal .btnCustomPrimary2.btnW {
+  min-width: 200px;
+}
+
+.customModal .btnCustomPrimary3.btnW {
+  min-width: 200px;
+}
+
+.customModal .btnCustomPrimary4.btnW {
   min-width: 200px;
 }
