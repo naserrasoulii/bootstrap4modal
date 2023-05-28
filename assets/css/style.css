@@ -203,6 +203,13 @@ body {
   background: none !important;
 }
 
+.customModal .selectThemplateRightSide .nav .nav-link:focus,
+.customModal .selectThemplateRightSide .nav .nav-link:active {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 .customModal .selectThemplateRightSide .nav .nav-link.active {
   background-color: var(--modalColor2) !important;
   filter: brightness(105%) !important;
